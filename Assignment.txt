@@ -1,0 +1,15 @@
+The file honeypot.json is a subset of our honeypot data. 
+
+Here is the data dictionary for the file:
+
+  "timestamp": date of the event
+  "tags": events are known to us and we have a tag for it
+  "payload": actual network payload seen by our honeypots
+  "port": "0" port where connection was seen
+  "country_name": country where the IP that connected to our honeypot
+  "as_num": "8075" AS number of the IP targeting us
+  "proxy_type": "DCH" type of proxy of the IP targeting us (if it is a proxy)
+  "ip": "13.42.34.10" target IP address that connected to our honeypots
+  "country_name_1": "United Kingdom" country of our honeypot
+
+Using the data on the file create an analysis of your choice. This exercise is meant to act as a way to explore your imagination and analytics experience. You're welcome to enrich this data with other sources, or build any type of product or analysis with it.
